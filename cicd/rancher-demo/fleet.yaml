@@ -1,7 +1,7 @@
 defaultNamespace: rancher-demo
 
 helm:
-  chart: https://github.com/qiang1981cn/rancher-demo-charts/tree/main/charts/rancher-demo
+  chart: https://github.com/qiang1981cn/rancher-demo-charts/tree/main/charts/rancher-demo #need to be modified?
   releaseName: rancher-demo
   version: 2.5.0
   values:
