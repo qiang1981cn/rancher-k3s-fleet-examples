@@ -2,9 +2,9 @@ defaultNamespace: rancher-demo
 
 helm:
   chart: rancher-demo
-  repo: https://bashofmann.github.io/demo-charts
+  repo: https://github.com/qiang1981cn/rancher-demo-charts/tree/main/charts
   releaseName: rancher-demo
   version: 2.5.0
   values:
     app:
-      title: Test
+      title: "Rancher Demo"
